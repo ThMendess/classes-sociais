@@ -1,0 +1,62 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: rgba(255, 255, 255, 0.74);
+}
+/* pseudo elemento aplicado ao h1 adicionado comteudo antes */
+
+header{
+    background-color: rgb(192, 178, 178);
+    
+}
+
+h1:before {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   content: "tema:"; 
+   font-weight: 900;
+   font-size: 50px;
+color: black;
+text-align: center;
+
+}
+
+nav ul{
+    list-style-type: none;
+padding: 0;
+display: flex;
+justify-content: center;
+/* background-color: rgb(83, 24, 69); */
+margin: 2px;
+box-shadow: inset;
+
+
+}
+
+nav ul li a {
+   text-decoration: none;
+color: black;
+padding: 10px;
+transition: background-color 0.5;
+    
+}
+
+nav ul li a :hover{
+    background-color: crimson;
+}
+
+nav ul li a :active{
+    background-color: darkmagenta;
+    color: aqua;
+}
+
+nav ul li a :visited{
+background-color: aquamarine;
+}
+
+footer{
+    background-color: rgb(88, 85, 85);
+    text-align: center;
+   
+}
+
